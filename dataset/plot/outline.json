@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "plot-outline-scene-1",
+    "surface": "plot",
+    "authority_class": "accepted_semantic",
+    "revision": "1",
+    "intent": "Mara enters the relay room and diagnoses why the beacon will not restart."
+  }
+]

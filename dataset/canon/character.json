@@ -1,1 +1,14 @@
-{}
+{
+  "mara-voss": {
+    "id": "canon-character-mara-voss",
+    "surface": "canon",
+    "authority_class": "accepted_semantic",
+    "revision": "1",
+    "name": "Mara Voss",
+    "role": "maintenance technician",
+    "knowledge": [
+      "Beacon K-17 failed during the storm.",
+      "Mara does not know who removed the relay fuse."
+    ]
+  }
+}

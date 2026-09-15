@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "canon-event-fuse-removal",
+    "surface": "canon",
+    "authority_class": "accepted_semantic",
+    "revision": "1",
+    "time": "02:10",
+    "fact": "Commander Hale secretly removed the relay fuse from Beacon K-17 before Mara entered the relay room.",
+    "information_access": {
+      "author_reviewer": true,
+      "mara_voss": false,
+      "reader_before_scene": false
+    }
+  }
+]

@@ -1,1 +1,13 @@
-{}
+{
+  "beacon-k17": {
+    "id": "canon-setting-beacon-k17",
+    "surface": "canon",
+    "authority_class": "accepted_semantic",
+    "revision": "1",
+    "name": "Beacon K-17 relay room",
+    "facts": [
+      "The beacon cannot transmit without its removable relay fuse.",
+      "The relay cabinet can be opened for maintenance."
+    ]
+  }
+}

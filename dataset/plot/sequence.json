@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "plot-sequence-scene-1",
+    "surface": "plot",
+    "authority_class": "accepted_semantic",
+    "revision": "1",
+    "viewpoint": "Mara Voss",
+    "intended_occurrence": [
+      "Mara enters the relay room after the storm.",
+      "She attempts a restart and gets no carrier.",
+      "She opens the relay cabinet and discovers the fuse socket is empty.",
+      "She recognizes that the missing fuse prevents restart."
+    ],
+    "reveal": [
+      "The relay fuse is missing."
+    ],
+    "conceal": [
+      "Who removed the fuse.",
+      "That Commander Hale removed the fuse."
+    ],
+    "stop": "Stop after Mara confirms the empty fuse socket is the immediate cause of the beacon failure."
+  }
+]

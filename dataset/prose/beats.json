@@ -1,1 +1,15 @@
-{}
+{
+  "scene-1": {
+    "id": "prose-beats-scene-1",
+    "surface": "prose",
+    "authority_class": "production_approved",
+    "revision": "1",
+    "beats": [
+      "Enter the cramped relay room with storm noise still audible outside.",
+      "Attempt restart; show the failed carrier indication.",
+      "Open cabinet and visually inspect relay assembly.",
+      "Discover empty fuse socket.",
+      "End on diagnosis, not culprit speculation."
+    ]
+  }
+}

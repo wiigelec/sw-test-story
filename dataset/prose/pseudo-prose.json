@@ -1,1 +1,9 @@
-{}
+{
+  "scene-1": {
+    "id": "prose-pseudo-scene-1",
+    "surface": "prose",
+    "authority_class": "production_approved",
+    "revision": "1",
+    "text": "Mara enters, tries the restart, gets no carrier, opens the relay cabinet, and finds the fuse socket empty. She identifies the missing fuse as the immediate fault. Stop before assigning blame."
+  }
+}

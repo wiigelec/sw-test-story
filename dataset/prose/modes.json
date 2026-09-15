@@ -1,1 +1,14 @@
-{}
+{
+  "scene-1": {
+    "id": "prose-modes-scene-1",
+    "surface": "prose",
+    "authority_class": "production_approved",
+    "revision": "1",
+    "sequence": [
+      "action",
+      "internal",
+      "action",
+      "internal"
+    ]
+  }
+}
