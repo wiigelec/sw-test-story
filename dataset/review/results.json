@@ -27,5 +27,34 @@
       "result": "blocked",
       "reason": "material unresolved candidate dependency canon-proposal-recent-removal@1"
     }
+  },
+  {
+    "id": "review-scene-1-attempt-2",
+    "candidate_id": "manuscript-candidate-scene-1-attempt-2",
+    "generation_package_id": "generation-package-scene-1-attempt-2",
+    "outcome": "conforming",
+    "criteria": {
+      "generation_boundary": "conforming",
+      "required_movement": "conforming",
+      "canon_consistency": "conforming",
+      "plot_fidelity": "conforming",
+      "viewpoint_access": "conforming",
+      "reveal_concealment": "conforming",
+      "prose_guidance": "conforming",
+      "protected_material": "conforming",
+      "creative_allowance": "conforming",
+      "consequential_invention": "conforming",
+      "local_continuity": "conforming"
+    },
+    "findings": [
+      "The corrected prose removes the unsupported timing clue.",
+      "The hidden culprit fact remains undisclosed.",
+      "The prose stops at diagnosis and introduces no new consequential story meaning."
+    ],
+    "acceptance_gate": {
+      "manuscript_acceptance_requested": true,
+      "result": "allowed",
+      "reason": "no unresolved material candidate dependencies remain for attempt 2"
+    }
   }
 ]

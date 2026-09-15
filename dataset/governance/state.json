@@ -8,19 +8,10 @@
       "revision": "1",
       "proposition": "The relay fuse was removed only minutes before Mara inspected the cabinet.",
       "origin": "manuscript-candidate-scene-1-attempt-1",
-      "status": "unresolved"
+      "status": "rejected_by_downstream_revision"
     }
   ],
-  "unresolved_dependencies": [
-    {
-      "dependent_id": "manuscript-candidate-scene-1-attempt-1",
-      "target_id": "canon-proposal-recent-removal",
-      "target_revision": "1",
-      "authority_basis": "candidate",
-      "material": true,
-      "acceptance_effect": "blocks_manuscript_acceptance"
-    }
-  ],
+  "unresolved_dependencies": [],
   "acceptance_operations": [
     {
       "operation": "production_approval",
@@ -43,7 +34,35 @@
         "canon-proposal-recent-removal@1"
       ],
       "result": "authorized_for_demonstration"
+    },
+    {
+      "operation": "revision_acceptance",
+      "scope": "manuscript-candidate-scene-1-attempt-2@1",
+      "result": "accepted",
+      "replaces": "manuscript-candidate-scene-1-attempt-1@1"
+    },
+    {
+      "operation": "manuscript_acceptance",
+      "scope": "manuscript-candidate-scene-1-attempt-2@1",
+      "result": "accepted",
+      "closure": "satisfied"
+    },
+    {
+      "operation": "persistence_authorization",
+      "scope": [
+        "generation-package-scene-1-attempt-2",
+        "manuscript-candidate-scene-1-attempt-2@1",
+        "review-scene-1-attempt-2",
+        "chapters/chapter-001.md"
+      ],
+      "result": "authorized_for_demonstration"
     }
   ],
-  "reconciliation": []
+  "reconciliation": [
+    {
+      "target": "canon-proposal-recent-removal@1",
+      "resolution": "revise_downstream",
+      "result": "proposal_not_accepted; attempt 2 removes dependency"
+    }
+  ]
 }

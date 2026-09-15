@@ -21,5 +21,35 @@
       }
     ],
     "status": "reviewed_non_conforming"
+  },
+  {
+    "id": "manuscript-candidate-scene-1-attempt-2",
+    "surface": "manuscript",
+    "authority_class": "accepted_manuscript",
+    "revision": "1",
+    "generation_package_id": "generation-package-scene-1-attempt-2",
+    "text": "Mara ducked into the relay room with rain ticking against the outer housing. She thumbed the restart switch. The carrier lamp stayed dark.\n\nShe opened the relay cabinet and worked down the stack one component at a time. At the fuse block, she stopped. The socket was empty.\n\nThat was enough to explain the dead carrier. Without the relay fuse, K-17 could not transmit.\n\nMara kept her eyes on the open cabinet. The fault was clear. Who had left it that way was not.",
+    "dependencies": [
+      {
+        "target_id": "plot-sequence-scene-1",
+        "target_revision": "1",
+        "authority_basis": "accepted",
+        "material": true
+      },
+      {
+        "target_id": "canon-character-mara-voss",
+        "target_revision": "1",
+        "authority_basis": "accepted",
+        "material": true
+      },
+      {
+        "target_id": "canon-setting-beacon-k17",
+        "target_revision": "1",
+        "authority_basis": "accepted",
+        "material": true
+      }
+    ],
+    "status": "accepted_to_manuscript",
+    "accepted_manifest_path": "chapters/chapter-001.md"
   }
 ]
