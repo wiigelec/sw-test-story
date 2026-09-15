@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "id": "review-scene-1-attempt-1",
+    "candidate_id": "manuscript-candidate-scene-1-attempt-1",
+    "generation_package_id": "generation-package-scene-1-attempt-1",
+    "outcome": "non_conforming",
+    "criteria": {
+      "generation_boundary": "conforming",
+      "required_movement": "conforming",
+      "canon_consistency": "indeterminate_pending_candidate_meaning",
+      "plot_fidelity": "conforming",
+      "viewpoint_access": "conforming",
+      "reveal_concealment": "conforming",
+      "prose_guidance": "conforming",
+      "protected_material": "conforming",
+      "creative_allowance": "non_conforming",
+      "consequential_invention": "non_conforming",
+      "local_continuity": "conforming"
+    },
+    "findings": [
+      "The warm fuse clips and statement that the fuse was removed only minutes ago establish a new consequential timing fact not present in accepted Canon or Plot.",
+      "The hidden accepted culprit fact was not disclosed; information-access separation held."
+    ],
+    "surfaced_candidate_meaning": "canon-proposal-recent-removal@1",
+    "acceptance_gate": {
+      "manuscript_acceptance_requested": true,
+      "result": "blocked",
+      "reason": "material unresolved candidate dependency canon-proposal-recent-removal@1"
+    }
+  }
+]

@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "manuscript-candidate-scene-1-attempt-1",
+    "surface": "manuscript",
+    "authority_class": "candidate_manuscript",
+    "revision": "1",
+    "generation_package_id": "generation-package-scene-1-attempt-1",
+    "text": "Mara ducked into the relay room with rain still ticking against the outer housing. She thumbed the restart switch. The carrier lamp stayed dark.\n\nShe opened the cabinet and worked down the relay stack until the gap caught her eye. The fuse socket was empty. Its ceramic clips still held a trace of warmth.\n\nSomeone had pulled the fuse only minutes ago.\n\nMara looked back to the dead carrier lamp. Whatever else had happened, the beacon was not coming back until that fuse was replaced.",
+    "dependencies": [
+      {
+        "target_id": "plot-sequence-scene-1",
+        "target_revision": "1",
+        "authority_basis": "accepted",
+        "material": true
+      },
+      {
+        "target_id": "canon-proposal-recent-removal",
+        "target_revision": "1",
+        "authority_basis": "candidate",
+        "material": true
+      }
+    ],
+    "status": "reviewed_non_conforming"
+  }
+]

@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "unresolved_dependencies": [],
+  "candidate_semantics": [
+    {
+      "id": "canon-proposal-recent-removal",
+      "surface": "canon",
+      "authority_class": "candidate_semantic",
+      "revision": "1",
+      "proposition": "The relay fuse was removed only minutes before Mara inspected the cabinet.",
+      "origin": "manuscript-candidate-scene-1-attempt-1",
+      "status": "unresolved"
+    }
+  ],
+  "unresolved_dependencies": [
+    {
+      "dependent_id": "manuscript-candidate-scene-1-attempt-1",
+      "target_id": "canon-proposal-recent-removal",
+      "target_revision": "1",
+      "authority_basis": "candidate",
+      "material": true,
+      "acceptance_effect": "blocks_manuscript_acceptance"
+    }
+  ],
+  "acceptance_operations": [
+    {
+      "operation": "production_approval",
+      "scope": "production-contract-scene-1@1",
+      "result": "accepted"
+    },
+    {
+      "operation": "manuscript_acceptance",
+      "scope": "manuscript-candidate-scene-1-attempt-1@1",
+      "result": "blocked",
+      "closure_reason": "unresolved material candidate dependency"
+    },
+    {
+      "operation": "persistence_authorization",
+      "scope": [
+        "production-contract-scene-1@1",
+        "generation-package-scene-1-attempt-1",
+        "manuscript-candidate-scene-1-attempt-1@1",
+        "review-scene-1-attempt-1",
+        "canon-proposal-recent-removal@1"
+      ],
+      "result": "authorized_for_demonstration"
+    }
+  ],
   "reconciliation": []
 }

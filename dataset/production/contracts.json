@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "production-contract-scene-1",
+    "surface": "production",
+    "authority_class": "production_approved",
+    "revision": "1",
+    "target_scope": "scene-1",
+    "stop_boundary": "Stop after Mara confirms the empty fuse socket is the immediate cause of the beacon failure.",
+    "narrative_movement": [
+      "Mara enters the relay room after the storm.",
+      "Restart produces no carrier.",
+      "Mara opens the relay cabinet.",
+      "Mara discovers the empty fuse socket.",
+      "Mara diagnoses the missing fuse as the immediate fault."
+    ],
+    "local_realization_units": [
+      "prose-beats-scene-1@1",
+      "prose-modes-scene-1@1",
+      "prose-pseudo-scene-1@1"
+    ],
+    "viewpoint_access": {
+      "viewpoint": "Mara Voss",
+      "generator_may_know": [
+        "Beacon K-17 failed during the storm.",
+        "The relay fuse is missing when Mara opens the cabinet.",
+        "Mara does not know who removed the fuse."
+      ],
+      "generator_must_not_receive": [
+        "Commander Hale secretly removed the relay fuse."
+      ]
+    },
+    "reveal_concealment": {
+      "reveal": [
+        "The relay fuse is missing."
+      ],
+      "conceal": [
+        "Who removed the fuse.",
+        "That Commander Hale removed the fuse."
+      ]
+    },
+    "entry_exit_conditions": {
+      "entry": "Mara enters the relay room after the storm.",
+      "exit": "Mara has diagnosed the missing fuse; culprit remains unknown to Mara and reader."
+    },
+    "prose_guidance": "Close third person through Mara; concrete technical observation; restrained tension.",
+    "style_voice": "Concise, physical, technically legible.",
+    "protected_material": {
+      "semantic": [
+        "No culprit disclosure.",
+        "No cause beyond the missing fuse is established."
+      ]
+    },
+    "creative_allowance": [
+      "Non-consequential sensory detail.",
+      "Natural physical actions while inspecting equipment.",
+      "Exact wording of Mara's internal reaction."
+    ],
+    "prohibited_consequential_invention": [
+      "Identity or motive of the person who removed the fuse.",
+      "New evidence establishing when the fuse was removed.",
+      "New damage, sabotage mechanism, witness, or forensic clue."
+    ],
+    "accepted_dependencies": [
+      "canon-character-mara-voss@1",
+      "canon-setting-beacon-k17@1",
+      "canon-event-fuse-removal@1",
+      "plot-sequence-scene-1@1",
+      "prose-beats-scene-1@1",
+      "prose-modes-scene-1@1",
+      "prose-pseudo-scene-1@1"
+    ],
+    "candidate_dependencies": []
+  }
+]
