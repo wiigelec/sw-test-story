@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "application_id": "adr-story-writer",
+  "instance_id": "adr-story-writer-dataset-template",
+  "ruleset_authority": {
+    "kind": "content-sha256",
+    "sha256": "e0ed6314e18494061d9e796b602eb92c98892c922bc2fac10d816514157acd6f"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "adr": {
+    "repository": "https://github.com/wiigelec/adr.git",
+    "commit": "14e27121df056eaa62bff82fe3c1df1444dfd64d"
+  },
+  "app_builder": {
+    "repository": "https://github.com/wiigelec/adr-app-builder.git",
+    "commit": "74f699482887ddc54290d70f042c5d337abcd254"
+  }
+}
