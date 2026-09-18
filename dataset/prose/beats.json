@@ -1,1 +1,22 @@
-{}
+{
+  "scene-002-signal-shed": {
+    "id": "beats-scene-002",
+    "surface": "prose.beats",
+    "authority_class": "production_approved",
+    "revision": "prose-beats-002-r1",
+    "target_scope": "scene-002-signal-shed",
+    "beats": [
+      "Mara tests the relay contacts and power feed.",
+      "The relay responds locally, ruling out the relay as the primary fault.",
+      "Mara changes position to inspect the cable entry and notices a recently disturbed floorboard.",
+      "Eli offers a practical reason to inspect the west span next.",
+      "Mara accepts the diagnostic logic, not an explanation for the floorboard.",
+      "They leave the shed for the west span."
+    ],
+    "protected_meaning": [
+      "Mara must not discover the satchel in this scene.",
+      "The reader must not be told that a satchel exists.",
+      "Eli may behave guardedly but must not be characterized as guilty of theft."
+    ]
+  }
+}

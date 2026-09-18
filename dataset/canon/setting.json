@@ -1,1 +1,16 @@
-{}
+{
+  "red-hollow": {
+    "id": "setting-red-hollow",
+    "surface": "canon.setting",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-setting-r1",
+    "name": "Red Hollow Relay Station",
+    "description": "A remote railway telegraph relay station on a dry high plain.",
+    "features": [
+      "a two-room station office",
+      "a detached signal shed containing relay equipment",
+      "a west telegraph span crossing a shallow wash",
+      "a plank floor in the signal shed with a narrow service void beneath it"
+    ]
+  }
+}

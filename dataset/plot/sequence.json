@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "id": "scene-001-arrival",
+    "surface": "plot.sequence",
+    "authority_class": "accepted_semantic",
+    "revision": "plot-scene-001-r1",
+    "ordinal": 1,
+    "viewpoint": "character-mara-venn",
+    "purpose": "Bring Mara into Red Hollow and establish the storm damage and Eli.",
+    "entry": "Mara walks from the morning freight stop toward the station office.",
+    "exit": "Eli tells Mara the relay in the signal shed is still dead.",
+    "dependencies": [
+      "event-storm",
+      "event-mara-arrives",
+      "setting-red-hollow"
+    ],
+    "reader_information": {
+      "may_reveal": [
+        "The west span was damaged by the storm.",
+        "Eli is the station caretaker."
+      ],
+      "must_conceal": [
+        "event-satchel-hidden"
+      ]
+    }
+  },
+  {
+    "id": "scene-002-signal-shed",
+    "surface": "plot.sequence",
+    "authority_class": "accepted_semantic",
+    "revision": "plot-scene-002-r1",
+    "ordinal": 2,
+    "viewpoint": "character-mara-venn",
+    "purpose": "Have Mara diagnose the dead relay while creating pressure around Eli's concealed knowledge without revealing the satchel.",
+    "entry": "Mara and Eli enter the signal shed to inspect the relay.",
+    "required_movements": [
+      "Mara verifies that the relay itself is intact.",
+      "Evidence points toward a break or ground fault outside the shed.",
+      "Mara notices that one floorboard has cleaner edges than the surrounding boards but has no reason to identify why.",
+      "Eli redirects attention to the west span without making a factual claim that contradicts Canon."
+    ],
+    "exit": "Mara decides to walk the west span and inspect the line physically.",
+    "dependencies": [
+      "character-mara-venn",
+      "character-eli-rusk",
+      "setting-red-hollow",
+      "event-storm",
+      "event-satchel-hidden"
+    ],
+    "reader_information": {
+      "may_reveal": [
+        "The relay is not the primary fault.",
+        "A floorboard appears to have been disturbed recently."
+      ],
+      "must_conceal": [
+        "The existence of the dispatch satchel.",
+        "Eli's reason for wanting the floor ignored."
+      ]
+    }
+  },
+  {
+    "id": "scene-003-first-message",
+    "surface": "plot.sequence",
+    "authority_class": "accepted_semantic",
+    "revision": "plot-scene-003-r1",
+    "ordinal": 3,
+    "viewpoint": "character-mara-venn",
+    "purpose": "After the line is restored, have Mara send the first message and notice a discrepancy in the station traffic log.",
+    "entry": "Mara returns to the office after repairing the west span.",
+    "exit": "She records the discrepancy for follow-up rather than confronting Eli immediately.",
+    "dependencies": [
+      "scene-002-signal-shed",
+      "event-storm",
+      "character-mara-venn"
+    ]
+  }
+]

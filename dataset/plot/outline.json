@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "outline-red-hollow-opening",
+    "surface": "plot.outline",
+    "authority_class": "accepted_semantic",
+    "revision": "plot-outline-r1",
+    "ordinal": 1,
+    "purpose": "Establish Mara, Red Hollow, the damaged line, and the concealed satchel without revealing the satchel to Mara or the reader.",
+    "scene_ids": [
+      "scene-001-arrival",
+      "scene-002-signal-shed",
+      "scene-003-first-message"
+    ]
+  }
+]

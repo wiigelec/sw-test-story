@@ -1,4 +1,13 @@
 {
   "format": "markdown",
-  "files": []
+  "files": [
+    {
+      "id": "manuscript-scene-001",
+      "authority_class": "accepted_manuscript",
+      "revision": "manuscript-scene-001-r1",
+      "ordinal": 1,
+      "plot_scope": "scene-001-arrival",
+      "path": "chapters/001.md"
+    }
+  ]
 }

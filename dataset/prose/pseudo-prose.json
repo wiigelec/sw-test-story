@@ -1,1 +1,17 @@
-{}
+{
+  "scene-002-signal-shed": {
+    "id": "pseudo-scene-002",
+    "surface": "prose.pseudo_prose",
+    "authority_class": "production_approved",
+    "revision": "prose-pseudo-002-r1",
+    "target_scope": "scene-002-signal-shed",
+    "units": [
+      "Mara works methodically through the relay before blaming the line.",
+      "The local test succeeds; the fault must be farther west.",
+      "While shifting for a better look at the cable entry, she notices one floorboard is cleaner at the edges.",
+      "Eli points out that the west span took the lightning hardest.",
+      "Mara files the floorboard away as an oddity and chooses the stronger diagnostic lead.",
+      "They leave for the west span."
+    ]
+  }
+}

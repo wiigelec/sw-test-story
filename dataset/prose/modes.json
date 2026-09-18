@@ -1,1 +1,16 @@
-{}
+{
+  "default-scene-mode": {
+    "id": "mode-close-third-mara",
+    "surface": "prose.modes",
+    "authority_class": "production_approved",
+    "revision": "prose-mode-r1",
+    "viewpoint": "close third person through Mara",
+    "tense": "past",
+    "style": [
+      "concrete physical observation",
+      "restrained interiority",
+      "technical details only when they affect action",
+      "no omniscient explanation of concealed facts"
+    ]
+  }
+}

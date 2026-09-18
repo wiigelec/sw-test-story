@@ -1,1 +1,42 @@
-{}
+{
+  "mara-venn": {
+    "id": "character-mara-venn",
+    "surface": "canon.character",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-mara-r1",
+    "name": "Mara Venn",
+    "role": "relief telegraph operator",
+    "traits": [
+      "methodical",
+      "dry-humored",
+      "reluctant to guess"
+    ],
+    "knowledge": [
+      "A lightning storm damaged the west telegraph span before her arrival.",
+      "Eli Rusk is the caretaker at Red Hollow.",
+      "The signal shed contains the relay equipment she has been sent to inspect."
+    ],
+    "does_not_know": [
+      "Eli concealed a sealed railway dispatch satchel beneath the signal-shed floor."
+    ]
+  },
+  "eli-rusk": {
+    "id": "character-eli-rusk",
+    "surface": "canon.character",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-eli-r1",
+    "name": "Eli Rusk",
+    "role": "Red Hollow caretaker",
+    "traits": [
+      "reserved",
+      "practical",
+      "protective of procedure"
+    ],
+    "knowledge": [
+      "A lightning storm damaged the west telegraph span.",
+      "A sealed railway dispatch satchel is hidden beneath the signal-shed floor.",
+      "Mara Venn does not know the satchel exists."
+    ],
+    "intent": "Keep the satchel concealed until a railway inspector can take custody."
+  }
+}

@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "event-storm",
+    "surface": "canon.events",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-event-storm-r1",
+    "chronology": 1,
+    "summary": "A lightning storm damages the west telegraph span during the night before Mara arrives.",
+    "known_by": [
+      "character-mara-venn",
+      "character-eli-rusk"
+    ]
+  },
+  {
+    "id": "event-satchel-hidden",
+    "surface": "canon.events",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-event-satchel-r1",
+    "chronology": 2,
+    "summary": "Before dawn, Eli finds a sealed railway dispatch satchel beside an abandoned handcar and conceals it beneath the signal-shed floor pending inspection.",
+    "known_by": [
+      "character-eli-rusk"
+    ],
+    "concealed_from": [
+      "character-mara-venn",
+      "reader-through-scene-002"
+    ]
+  },
+  {
+    "id": "event-mara-arrives",
+    "surface": "canon.events",
+    "authority_class": "accepted_semantic",
+    "revision": "canon-event-arrival-r1",
+    "chronology": 3,
+    "summary": "Mara arrives at Red Hollow shortly after dawn to restore telegraph service.",
+    "known_by": [
+      "character-mara-venn",
+      "character-eli-rusk"
+    ]
+  }
+]
